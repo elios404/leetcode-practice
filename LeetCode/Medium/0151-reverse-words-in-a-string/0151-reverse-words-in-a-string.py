@@ -1,13 +1,11 @@
 """
 1. Approach
-    - iterate the input string s and split the string with ' '
-    - Reverse the list and join it with ' '
-2. Time complexity : O(N) - Scan string `s` once, and make it reverse, join the list -> O(3*N)?
-3. Space Complexity : O(N) - auxiliary space O(N) needed to save reversed word List.
+    - Tokenize the input string into a list of words using default whitespace splitting.
+    - Reverse the sequence of the parsed words and concatenate them using a single space delimiter.
+2. Time complexity : O(N) - Although the built-in functions perform multiple linear passes(split, reverse, join) resulting O(3N), we drop the constants to simplify the overall time complexity to O(N)
+3. Space Complexity : O(N) - We allocate auxiliary space to store the list of parsed words.
 """
 class Solution:
     def reverseWords(self, s: str) -> str:
-        l = s.strip().split(" ")[::-1]
-        # a bit weird solution isn't it..?
-        return " ".join(word for word in l if word != '')
+        return " ".join(reversed(s.split()))
         
