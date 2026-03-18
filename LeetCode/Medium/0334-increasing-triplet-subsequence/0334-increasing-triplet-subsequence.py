@@ -23,7 +23,6 @@ class Solution:
                 while num <= l[idx] and idx != -1:
                     idx -= 1
                 l[idx+1] = num
-            print(l)
         
         return len(l)>=3
 
