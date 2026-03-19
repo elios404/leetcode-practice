@@ -1,33 +1,32 @@
 """
 1. Approach
-    - It is strictly required to write algorithm that uses only constant extra space.
-    - So I set the variables, where should I put the character of length, which character I'm watching, how many characters I checked seqeuancially.
-    - And also I append "0" before I iterate the `chars` to put character and length when it was the last index.
-2. Time complexity : O(N) - Only need to scan the list `chars` once.
-3. Space complexity : O(1) -  Only need `idx`, `c` and `cnt` to check how many characters in a row and which index should we put.
+    - Implemented a Read/Write Two-Pointer technique to compree the array in-place.
+    - The `read` pointer scans the array to count consecutive identical characters.
+    - The `write` pointer sequentially overwrites the original array with the character and, if the count exceeds 1, its numeric frequency.
+    - This structure natually handles the end of the array without requiring dummy appending.
+2. Time complexity : O(N) - Both the read and write pointers traverse the array exactly once in a single forward direction.
+3. Space complexity : O(1) - The compression is performed in-place using only constant integer pointers.
 """
 class Solution:
     def compress(self, chars: List[str]) -> int:
-        chars.append("0")
-        idx = 0
-        c = chars[0]
-        cnt = 1
-        for i in range(1, len(chars)):
-            if chars[i-1] == chars[i]:
-                cnt += 1
-            else:
-                chars[idx] = c
-                c = chars[i]
-                idx += 1
-                if cnt != 1:
-                    nums = list(str(cnt))
-                    for num in nums:
-                        chars[idx] = num
-                        idx += 1
-                cnt = 1
+        read = 0
+        write = 0
+        n = len(chars)
 
-        chars = chars[:idx]
-        return len(chars)      
+        while read < n:
+            current_char = chars[read]
+            count = 0
 
+            while read < n and chars[read] == current_char:
+                read += 1
+                count += 1
+            
+            chars[write] = current_char
+            write += 1
 
+            if count > 1:
+                for digit in str(count):
+                    chars[write] = digit
+                    write += 1
         
+        return write
