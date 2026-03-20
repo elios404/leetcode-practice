@@ -7,20 +7,23 @@
 2. Time Complexity : $O(N)$ - A single linear traversal of the array with $O(1)$ Hash Map lookups.
 3. Space Complexity : $O(N)$ - In the worst case, we store all elements in the Hash Map.
 """
+from collections import defaultdict
 
 class Solution:
     def maxOperations(self, nums: List[int], k: int) -> int:
-        # nums.length <= 10^5
-        # 1 <= nums[i] <= 10^9 (inside integer range)
-        # 1 <= k <= 10^9
-        seen = {}
+        # defaultdict is slightly faster than .get() because it handles 
+        # missing key instantiation at the C-backend level.
+        seen = defaultdict(int)
         ans = 0
 
         for num in nums:
-            if seen.get(k-num,0) > 0:
+            complement = k - num
+            
+            # Direct dictionary access is faster than calling a method like .get()
+            if seen[complement] > 0:
                 ans += 1
-                seen[k-num] -= 1
+                seen[complement] -= 1
             else:
-                seen[num] = seen.get(num,0) + 1
-        
+                seen[num] += 1
+                
         return ans
