@@ -1,30 +1,26 @@
 """
 1. Approach :
-    - N is 10^5, so I think time complexity should be maximum O(N log N)
-    - Each number has fixed pair number to make K, such as number `a` is pair with `K-a`
-    - So can sort the nums list and check from each end of the array.
-2. Time Complexity : O(N) - Iterate once of the array.
-3. Space Complexity :  O(1) - Need constant auxiliary space to track left, right two pointer index.
+    - To bypass the $O(N \log N)$ bottleneck of sorting, we utilize a Hash Map to count character frequencies, trading auxiliary space for execution speed.
+    - We iterate through the array once. For each number `num`, we calculate its required complement (`k - num`).
+    - If the complement exists in our active Hash Map with a count > 0, we found a pair: we increment our operations counter and decrement the complement's available frequency.
+    - If it does not exist, we add the current `num` to the Hash Map to be paired later.
+2. Time Complexity : $O(N)$ - A single linear traversal of the array with $O(1)$ Hash Map lookups.
+3. Space Complexity : $O(N)$ - In the worst case, we store all elements in the Hash Map.
 """
+
 class Solution:
     def maxOperations(self, nums: List[int], k: int) -> int:
         # nums.length <= 10^5
         # 1 <= nums[i] <= 10^9 (inside integer range)
         # 1 <= k <= 10^9
-        nums.sort()
-        left = 0
-        right = len(nums)-1
-
+        seen = {}
         ans = 0
-        while left < right:
-            sum = nums[left] + nums[right]
-            if sum == k:
+
+        for num in nums:
+            if seen.get(k-num,0) > 0:
                 ans += 1
-                left += 1
-                right -= 1
-            elif sum < k: #sum should be bigger so left should be bigger
-                left += 1
-            else: # Right whould be smaller
-                right -= 1
+                seen[k-num] -= 1
+            else:
+                seen[num] = seen.get(num,0) + 1
         
         return ans
