@@ -3,6 +3,8 @@
     - N is 10^5, so I think time complexity should be maximum O(N log N)
     - Each number has fixed pair number to make K, such as number `a` is pair with `K-a`
     - So can sort the nums list and check from each end of the array.
+2. Time Complexity : O(N) - Iterate once of the array.
+3. Space Complexity :  O(1) - Need constant auxiliary space to track left, right two pointer index.
 """
 class Solution:
     def maxOperations(self, nums: List[int], k: int) -> int:
