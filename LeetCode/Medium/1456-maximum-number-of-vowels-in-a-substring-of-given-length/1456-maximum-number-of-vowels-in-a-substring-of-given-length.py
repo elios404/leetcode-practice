@@ -11,13 +11,15 @@ class Solution:
 
         cur = sum([s[i] in vowels for i in range(k)])
         ans = cur
+        if ans == k: # answer can't exceed the length `k`, so early stopping condition
+            return k        
+
         for i in range(k, len(s)):
-            if ans == k: # answer can't exceed the length `k`, so early stopping condition
-                return k
-            
             cur += (s[i] in vowels) - (s[i-k] in vowels)
             if cur > ans:
                 ans = cur
+                if ans == k: # answer can't exceed the length `k`, so early stopping condition
+                    return k
         
         return ans
         
