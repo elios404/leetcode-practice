@@ -7,9 +7,9 @@
 """
 class Solution:
     def maxVowels(self, s: str, k: int) -> int:
-        vowels = "aeiou"
+        vowels = set("aeiou")
 
-        cur = sum([s[i] in vowels for i in range(k)])
+        cur = sum(s[i] in vowels for i in range(k))
         ans = cur
         if ans == k: # answer can't exceed the length `k`, so early stopping condition
             return k        
