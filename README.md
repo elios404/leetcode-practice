@@ -91,4 +91,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1657-determine-if-two-strings-are-close](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1657-determine-if-two-strings-are-close/) | Medium |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0933-number-of-recent-calls](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0933-number-of-recent-calls/) | Easy |
+## Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0933-number-of-recent-calls](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0933-number-of-recent-calls/) | Easy |
+## Data Stream
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0933-number-of-recent-calls](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0933-number-of-recent-calls/) | Easy |
 <!---LeetCode Topics End-->
