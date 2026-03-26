@@ -1,32 +1,27 @@
 """
-1. Apporach
-    - I use hash map, especially Counter class.
-    - Put all posible numbers which row can make in `counter` with the number of occurance.
-    - Make a query string with column and search that query in `counter`, if counter doesn't have query string, return 0
-2. Time Complexity : O(n^2) - I wrote detailed explanations above the code 
-3. Space Comeplexity : O(N) - For Counter and query stirng made with col need auxiliary space
+1. Approach :
+    - Utilize a Hash Map to cache the frequency of each row for $O(1)$ lookups.
+    - Because Python lists are unhashable, we cast each row into an immutable `tuple`.
+    - We transpose the 2D matrix using the native `zip(*grid)` function, which cleanly yields each column as a tuple.
+    - Iterate through the generated columns and increment our answer by the frequency of that tuple in our Hash Map.
+2. Time Complexity : $O(N^2)$ - We traverse the $N \times N$ matrix twice: once to build the Counter, and once to query the columns.
+3. Space Complexity : $O(N^2)$ - The Hash Map stores up to $N$ unique tuples of length $N$.
 """
 from collections import Counter
+from typing import List
 
 class Solution:
     def equalPairs(self, grid: List[List[int]]) -> int:
+        # Step 1: Hash the rows as tuples. 
+        # tuple(row) is vastly faster than ",".join(str(c))
+        row_counter = Counter(tuple(row) for row in grid)
+        
         ans = 0
-        k = []
-        # O(N^2) - every row, each elements in the row
-        for row in grid:
-            k.append(",".join(str(c) for c in row))
-        # O(N)
-        counter = Counter(k)
-
-        # O(N^2)
-        for j in range(len(grid)):
-            col = []
-            # O(N)
-            for i in range(len(grid)):
-                col.append(str(grid[i][j]))
-            #O(N)
-            col_string = ",".join(col)
-            #O(1)
-            ans += counter.get(col_string,0) # return 0 if there aren't col_string in counter
-
+        
+        # Step 2: zip(*grid) transposes the matrix. 
+        # It takes the 0th element of every row, groups them into a tuple, then the 1st, etc.
+        for col in zip(*grid):
+            # O(1) dictionary lookup using the tuple as the key
+            ans += row_counter.get(col, 0)
+            
         return ans
