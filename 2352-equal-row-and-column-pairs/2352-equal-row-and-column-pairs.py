@@ -14,7 +14,7 @@ class Solution:
         k = []
         # O(N^2) - every row, each elements in the row
         for row in grid:
-            k.append("".join(str(c) for c in row))
+            k.append(",".join(str(c) for c in row))
         # O(N)
         counter = Counter(k)
 
@@ -25,7 +25,7 @@ class Solution:
             for i in range(len(grid)):
                 col.append(str(grid[i][j]))
             #O(N)
-            col_string = "".join(col)
+            col_string = ",".join(col)
             #O(1)
             ans += counter.get(col_string,0) # return 0 if there aren't col_string in counter
 
