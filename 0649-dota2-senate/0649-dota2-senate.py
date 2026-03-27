@@ -5,16 +5,19 @@ class Solution:
         counter = Counter(senate)
         q = deque(senate)
 
+        cnt = 0
         while counter["R"] > 0 and counter["D"] > 0:
             turn = q.popleft()
-            if turn == ".":
-                continue
-
-            for i in range(len(q)):
-                if turn != q[i] and q[i] != ".":
-                    counter[q[i]] -= 1
-                    q[i] = "."
-                    break
+            cnt += 1
+            while cnt > 0:
+                if turn != q[0]:
+                    counter[q.popleft()] -= 1
+                    cnt -= 1
+                else:
+                    q.append(turn)
+                    q.popleft()
+                    cnt += 1
+            
             q.append(turn)
         
         if counter["D"] == 0:
