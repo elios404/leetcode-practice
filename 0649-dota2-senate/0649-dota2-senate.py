@@ -1,30 +1,22 @@
-from collections import deque, Counter
-
 class Solution:
     def predictPartyVictory(self, senate: str) -> str:
-        counter = Counter(senate)
-        q = deque(senate)
+        n = len(senate)
+        r_queue = deque()
+        d_queue = deque()
 
-        cnt = 0
-        while counter["R"] > 0 and counter["D"] > 0:
-            turn = q.popleft()
-            cnt += 1
-            while cnt > 0:
-                if turn != q[0]:
-                    banned = q.popleft()
-                    counter[banned] -= 1
-                    if counter[banned] == 0:
-                        break
-                    cnt -= 1
-                else:
-                    q.append(turn)
-                    q.popleft()
-                    cnt += 1
-            
-            q.append(turn)
+        for i in range(len(senate)):
+            if senate[i] == "R":
+                r_queue.append(i)
+            else:
+                d_queue.append(i)
         
-        if counter["D"] == 0:
-            return "Radiant"
-        else:
-            return "Dire"
+        while r_queue and d_queue:
+            r = r_queue.popleft()
+            d = d_queue.popleft()
+
+            if r < d:
+                r_queue.append(r+n)
+            else:
+                d_queue.append(d+n)
         
+        return "Radiant" if r_queue else "Dire"
