@@ -11,7 +11,10 @@ class Solution:
             cnt += 1
             while cnt > 0:
                 if turn != q[0]:
-                    counter[q.popleft()] -= 1
+                    banned = q.popleft()
+                    counter[banned] -= 1
+                    if counter[banned] == 0:
+                        break
                     cnt -= 1
                 else:
                     q.append(turn)
