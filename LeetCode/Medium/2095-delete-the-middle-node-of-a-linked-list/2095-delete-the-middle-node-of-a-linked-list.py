@@ -11,8 +11,8 @@ class Solution:
             n += 1
             node = node.next
 
-        #if n == 1:
-            #return None
+        if n == 1:
+            return None
         
         idx = 0 # cur_node index
         target = n//2 - 1 # one before middle node
