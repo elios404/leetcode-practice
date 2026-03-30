@@ -131,10 +131,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0206-reverse-linked-list](https://github.com/elios404/leetcode-practice/tree/main/0206-reverse-linked-list/) | Easy |
 | [0394-decode-string](https://github.com/elios404/leetcode-practice/tree/main/0394-decode-string/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0206-reverse-linked-list](https://github.com/elios404/leetcode-practice/tree/main/0206-reverse-linked-list/) | Easy |
 | [0328-odd-even-linked-list](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0328-odd-even-linked-list/) | Medium |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
 <!---LeetCode Topics End-->
