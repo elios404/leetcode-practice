@@ -142,4 +142,20 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0328-odd-even-linked-list](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0328-odd-even-linked-list/) | Medium |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
 <!---LeetCode Topics End-->
