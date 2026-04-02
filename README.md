@@ -147,6 +147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0437-path-sum-iii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0437-path-sum-iii/) | Medium |
 | [0872-leaf-similar-trees](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0872-leaf-similar-trees/) | Easy |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1372-longest-zigzag-path-in-a-binary-tree/) | Medium |
@@ -155,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0437-path-sum-iii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0437-path-sum-iii/) | Medium |
 | [0872-leaf-similar-trees](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0872-leaf-similar-trees/) | Easy |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1372-longest-zigzag-path-in-a-binary-tree/) | Medium |
@@ -168,6 +170,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0437-path-sum-iii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0437-path-sum-iii/) | Medium |
 | [0872-leaf-similar-trees](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0872-leaf-similar-trees/) | Easy |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1372-longest-zigzag-path-in-a-binary-tree/) | Medium |
