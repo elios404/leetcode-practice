@@ -17,9 +17,10 @@ class Solution:
         while q:
             q_size = len(q)
             cur_sum = 0
-            for i in range(q_size):
+            for _ in range(q_size):
                 cur_node = q.popleft() 
                 cur_sum += cur_node.val
+                # at first, I put node which value is None also, but has a problem of calculating cur_sum and also inefficient time spending for checking None
                 if cur_node.left:
                     q.append(cur_node.left)
                 if cur_node.right:
