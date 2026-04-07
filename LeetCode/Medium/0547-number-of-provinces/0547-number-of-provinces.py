@@ -1,31 +1,42 @@
 """
 1. Approach:
-    - At first, I wanted to use union-find algorithm but failed to solve with that.
-    - So changed the way of solving, search all connected nodes and track that with visited boolean list
-    - Count how many new start points appear whlie linear search of the `isConnected`
-2. Time Complexity : O(N^2) - Check exactly once of N*N grid
-3. Space Comeplextiy : O(N) - boolean list for tracking visit take O(N) and deque also need O(N) maximum.
+    - This problem is union-find algorithm problem, I think.
+    - We need to find distinguishable sets.
+2. Time Complexity : O(N^2) - Nested for loops is primary time complexity.
+3. Space Comeplextiy : O(N) - list for tracking root of every nodes.
 """
-from collections import deque
-
 class Solution:
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
         n = len(isConnected)
-        q = deque()
-        visited = [False] * n
+        root = [i for i in range(n)]
+
+        # O(alpha(log N)) - At first, can be maximum log N(height of the tree) but after find, every node will be connected with root directly.
+        def find(city_num: int) -> int:
+            if root[city_num] == city_num:
+                return city_num
+            root[city_num] = find(root[city_num])
+            return root[city_num]
         
-        answer = 0
+        # O(1) ? - Not sure
+        def union(num1: int, num2: int) -> bool:
+            root1 = find(num1)
+            root2 = find(num2)
+
+            if root1 == root2:
+                return False
+            else:
+                root[root2] = root1
+                return True
+        
+        # O(n ^ 2) - sum of 1~n, n*(n+1)/2
         for i in range(n):
-            if not visited[i]:
-                visited[i] = True
-                q.append(i)
+            for j in range(i,n): # why it can't be (i+1, n)? if j is i then isConnected[i][i] is always pointing itself, which has no meanig of union..?
+                if isConnected[i][j] == 1:
+                    union(i,j)
+        
+        ans = 0
+        for i in range(n):
+            if root[i] == i:
+                ans += 1
 
-                answer += 1
-                while q:
-                    cur_num = q.popleft()
-                    for j in range(n):
-                        if isConnected[cur_num][j] == 1 and not visited[j]:
-                            visited[j] = True
-                            q.append(j) 
-
-        return answer
+        return ans
