@@ -30,7 +30,7 @@ class Solution:
         
         # O(n ^ 2) - sum of 1~n, n*(n+1)/2
         for i in range(n):
-            for j in range(i,n): # why it can't be (i+1, n)? if j is i then isConnected[i][i] is always pointing itself, which has no meanig of union..?
+            for j in range(i+1,n): # why it can't be (i+1, n)? if j is i then isConnected[i][i] is always pointing itself, which has no meanig of union..?
                 if isConnected[i][j] == 1:
                     union(i,j)
         
