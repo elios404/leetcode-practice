@@ -3,8 +3,8 @@ from collections import deque
 class Solution:
     def minReorder(self, n: int, connections: List[List[int]]) -> int:
         visited = [False] * n
-        graph = [[]*n for _ in range(n)]
-        rGraph = [[]*n for _ in range(n)]
+        graph = [[] for _ in range(n)]
+        rGraph = [[] for _ in range(n)]
 
         for edge in connections:
             start, end = edge[0], edge[1]
