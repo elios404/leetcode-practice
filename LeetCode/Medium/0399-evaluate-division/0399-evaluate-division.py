@@ -1,38 +1,45 @@
 from collections import deque, defaultdict
+from typing import List
 
 class Solution:
     def calcEquation(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:
         edges = defaultdict(list)
 
-        for edge, cost in zip(equations, values):
-            edges[edge[0]].append((edge[1], cost))
-            edges[edge[1]].append((edge[0], 1/cost))
+        # Pythonic: Tuple unpacking for cleaner assignments
+        for (u, v), cost in zip(equations, values):
+            edges[u].append((v, cost))
+            edges[v].append((u, 1 / cost))
 
         ret = []
-        for query in queries:
-            start, end = query[0], query[1]
+        for start, end in queries:
+            # 1. EARLY REJECTION: If either node doesn't exist, it's strictly -1.0
+            # Using 'in' does NOT trigger defaultdict's automatic key creation.
+            if start not in edges or end not in edges:
+                ret.append(-1.0)
+                continue
 
-            if start == end and len(edges[start]) != 0: # hmm.. but isn't it weird that at the bottom, not exist key added so need to check the length.
+            # 2. IDENTITY CASE: If a node divides by itself
+            if start == end:
                 ret.append(1.0)
                 continue
 
-            queue = deque()
-            visited = set()
-
-            queue.append((start,1))
-            visited.add(start)
+            # 3. BFS SEARCH
+            queue = deque([(start, 1.0)])
+            visited = {start} # Pythonic: Set initialization
             found = False
+            
             while queue and not found:
                 cur_node, cur_value = queue.popleft()
-                for next_node in edges[cur_node]: # at here, though cur_node does actually not exist in equations but still new key `cur_node` and empty list added..
-                    if next_node[0] not in visited:
-                        if next_node[0] == end:
-                            ret.append(cur_value * next_node[1])
+                
+                for next_node, weight in edges[cur_node]:
+                    if next_node not in visited:
+                        if next_node == end:
+                            ret.append(cur_value * weight)
                             found = True
                             break
-                
-                        visited.add(next_node[0])
-                        queue.append((next_node[0], cur_value * next_node[1]))
+                        
+                        visited.add(next_node)
+                        queue.append((next_node, cur_value * weight))
             
             if not found:
                 ret.append(-1.0)
