@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0345-reverse-vowels-of-a-string](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0345-reverse-vowels-of-a-string/) | Easy |
 | [0392-is-subsequence](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
 | [0394-decode-string](https://github.com/elios404/leetcode-practice/tree/main/0394-decode-string/) | Medium |
+| [0399-evaluate-division](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
 | [0443-string-compression](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0443-string-compression/) | Medium |
 | [0649-dota2-senate](https://github.com/elios404/leetcode-practice/tree/main/0649-dota2-senate/) | Medium |
 | [1071-greatest-common-divisor-of-strings](https://github.com/elios404/leetcode-practice/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
@@ -41,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0238-product-of-array-except-self](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
 | [0283-move-zeroes](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0283-move-zeroes/) | Easy |
 | [0334-increasing-triplet-subsequence](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0334-increasing-triplet-subsequence/) | Medium |
+| [0399-evaluate-division](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
 | [0605-can-place-flowers](https://github.com/elios404/leetcode-practice/tree/main/0605-can-place-flowers/) | Easy |
 | [0643-maximum-average-subarray-i](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0643-maximum-average-subarray-i/) | Easy |
 | [0724-find-pivot-index](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0724-find-pivot-index/) | Easy |
@@ -161,6 +163,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
+| [0399-evaluate-division](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
 | [0437-path-sum-iii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0437-path-sum-iii/) | Medium |
 | [0547-number-of-provinces](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0841-keys-and-rooms](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
@@ -174,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
+| [0399-evaluate-division](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
 | [0547-number-of-provinces](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0841-keys-and-rooms](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
@@ -198,11 +202,17 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0399-evaluate-division](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
 | [0547-number-of-provinces](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0841-keys-and-rooms](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0399-evaluate-division](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
 | [0547-number-of-provinces](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
+## Shortest Path
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0399-evaluate-division](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
 <!---LeetCode Topics End-->
