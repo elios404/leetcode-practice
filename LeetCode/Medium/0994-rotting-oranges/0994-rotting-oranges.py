@@ -19,7 +19,6 @@ class Solution:
 
         m = len(grid)
         n = len(grid[0])
-        visited = [[False] * n for _ in range(m)]
         rotten = deque()
         fresh_cnt = 0
 
@@ -31,7 +30,6 @@ class Solution:
                     fresh_cnt += 1
                 elif grid[i][j] == 2:
                     rotten.append((i,j,0)) #row, col, time
-                    visited[i][j] = True
 
         if fresh_cnt == 0:
             return 0
@@ -45,13 +43,12 @@ class Solution:
                 nj = j + dj[d]
 
                 if not checkBorder(ni,nj,m,n): continue # out of border
-                if visited[ni][nj]: continue # already visited
 
                 if grid[ni][nj] == 1: #if adjacent is fresh orange
                     fresh_cnt -= 1
                     if fresh_cnt == 0: # if all fresh oranges are rotten
                         return mins+1
-                    visited[ni][nj] = True
+                    grid[ni][nj] = 2
                     rotten.append((ni,nj,mins+1))
         
         return -1
