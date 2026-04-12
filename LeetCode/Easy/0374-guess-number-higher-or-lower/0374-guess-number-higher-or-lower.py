@@ -8,10 +8,10 @@
 class Solution:
     def guessNumber(self, n: int) -> int:
         front, back = 1, n
-        mid = (front + back) // 2
 
         # picked number is definitely betwenn 1~N
         while front <= back: # until mid == n
+            mid = (front+back) // 2
             res = guess(mid)
 
             if res == 0:
@@ -20,7 +20,5 @@ class Solution:
                 back = mid - 1
             elif res == 1:
                 front = mid + 1
-
-            mid = (front+back) // 2
 
         return -1
