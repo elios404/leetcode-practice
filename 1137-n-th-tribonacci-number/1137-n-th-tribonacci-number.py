@@ -7,14 +7,12 @@ class Solution:
     def tribonacci(self, n: int) -> int:
         if n == 0:
             return 0
-        elif n in [1,2]:
+        elif n <= 2:
             return 1
 
         num1, num2, num3 = 0,1,1
 
-        i = 3
-        while i <= n :
-            num1, num2, num3 = num2, num3, num1+num2+num3
-            i += 1
+        for _ in range(3, n + 1):
+            num1, num2, num3 = num2, num3, num1 + num2 + num3
 
         return num3
