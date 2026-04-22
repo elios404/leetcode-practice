@@ -49,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0283-move-zeroes](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0283-move-zeroes/) | Easy |
 | [0334-increasing-triplet-subsequence](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0334-increasing-triplet-subsequence/) | Medium |
 | [0399-evaluate-division](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
+| [0435-non-overlapping-intervals](https://github.com/elios404/leetcode-practice/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0605-can-place-flowers](https://github.com/elios404/leetcode-practice/tree/main/0605-can-place-flowers/) | Easy |
 | [0643-maximum-average-subarray-i](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0643-maximum-average-subarray-i/) | Easy |
 | [0724-find-pivot-index](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0724-find-pivot-index/) | Easy |
@@ -69,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0011-container-with-most-water/) | Medium |
 | [0334-increasing-triplet-subsequence](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0334-increasing-triplet-subsequence/) | Medium |
+| [0435-non-overlapping-intervals](https://github.com/elios404/leetcode-practice/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0605-can-place-flowers](https://github.com/elios404/leetcode-practice/tree/main/0605-can-place-flowers/) | Easy |
 | [0649-dota2-senate](https://github.com/elios404/leetcode-practice/tree/main/0649-dota2-senate/) | Medium |
 ## Prefix Sum
@@ -84,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0062-unique-paths](https://github.com/elios404/leetcode-practice/tree/main/0062-unique-paths/) | Medium |
 | [0338-counting-bits](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
 | [0392-is-subsequence](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
+| [0435-non-overlapping-intervals](https://github.com/elios404/leetcode-practice/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [1137-n-th-tribonacci-number](https://github.com/elios404/leetcode-practice/tree/main/1137-n-th-tribonacci-number/) | Easy |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1372-longest-zigzag-path-in-a-binary-tree/) | Medium |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1493-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
@@ -102,6 +105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
+| [0435-non-overlapping-intervals](https://github.com/elios404/leetcode-practice/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [1657-determine-if-two-strings-are-close](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1657-determine-if-two-strings-are-close/) | Medium |
 | [1679-max-number-of-k-sum-pairs](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1679-max-number-of-k-sum-pairs/) | Medium |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/2300-successful-pairs-of-spells-and-potions/) | Medium |
