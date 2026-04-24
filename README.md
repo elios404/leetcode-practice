@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0643-maximum-average-subarray-i](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0643-maximum-average-subarray-i/) | Easy |
 | [0724-find-pivot-index](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0724-find-pivot-index/) | Easy |
 | [0735-asteroid-collision](https://github.com/elios404/leetcode-practice/tree/main/0735-asteroid-collision/) | Medium |
+| [0739-daily-temperatures](https://github.com/elios404/leetcode-practice/tree/main/0739-daily-temperatures/) | Medium |
 | [0994-rotting-oranges](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0994-rotting-oranges/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1004-max-consecutive-ones-iii/) | Medium |
 | [1207-unique-number-of-occurrences](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
@@ -158,6 +159,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0394-decode-string](https://github.com/elios404/leetcode-practice/tree/main/0394-decode-string/) | Medium |
 | [0735-asteroid-collision](https://github.com/elios404/leetcode-practice/tree/main/0735-asteroid-collision/) | Medium |
+| [0739-daily-temperatures](https://github.com/elios404/leetcode-practice/tree/main/0739-daily-temperatures/) | Medium |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 | [2390-removing-stars-from-a-string](https://github.com/elios404/leetcode-practice/tree/main/2390-removing-stars-from-a-string/) | Medium |
 ## Recursion
@@ -288,4 +290,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0739-daily-temperatures](https://github.com/elios404/leetcode-practice/tree/main/0739-daily-temperatures/) | Medium |
 <!---LeetCode Topics End-->
