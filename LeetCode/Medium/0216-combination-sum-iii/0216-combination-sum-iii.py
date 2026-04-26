@@ -4,8 +4,6 @@ class Solution:
 
         def makeCombination(num: int, picked: list, k: int, n: int):
             if len(picked) == k and sum(picked) == n:
-                print("enter")
-                print(picked)
                 ans.append(list(picked))
                 return
             
