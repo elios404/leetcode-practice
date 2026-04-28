@@ -30,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0443-string-compression](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0443-string-compression/) | Medium |
 | [0649-dota2-senate](https://github.com/elios404/leetcode-practice/tree/main/0649-dota2-senate/) | Medium |
 | [1071-greatest-common-divisor-of-strings](https://github.com/elios404/leetcode-practice/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
+| [1143-longest-common-subsequence](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1143-longest-common-subsequence/) | Medium |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
 | [1657-determine-if-two-strings-are-close](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1657-determine-if-two-strings-are-close/) | Medium |
 | [1768-merge-strings-alternately](https://github.com/elios404/leetcode-practice/tree/main/1768-merge-strings-alternately/) | Easy |
@@ -96,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0435-non-overlapping-intervals](https://github.com/elios404/leetcode-practice/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0746-min-cost-climbing-stairs/) | Easy |
 | [1137-n-th-tribonacci-number](https://github.com/elios404/leetcode-practice/tree/main/1137-n-th-tribonacci-number/) | Easy |
+| [1143-longest-common-subsequence](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1143-longest-common-subsequence/) | Medium |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1372-longest-zigzag-path-in-a-binary-tree/) | Medium |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1493-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 ## Hash Table
