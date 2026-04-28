@@ -300,6 +300,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0136-single-number](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0136-single-number/) | Easy |
 | [0338-counting-bits](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
+| [1318-minimum-flips-to-make-a-or-b-equal-to-c](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1318-minimum-flips-to-make-a-or-b-equal-to-c/) | Medium |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
