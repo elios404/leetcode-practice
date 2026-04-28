@@ -45,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0011-container-with-most-water/) | Medium |
 | [0162-find-peak-element](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0162-find-peak-element/) | Medium |
+| [0198-house-robber](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
 | [0216-combination-sum-iii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0216-combination-sum-iii/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
@@ -89,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/elios404/leetcode-practice/tree/main/0062-unique-paths/) | Medium |
+| [0198-house-robber](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
 | [0338-counting-bits](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
 | [0392-is-subsequence](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
 | [0435-non-overlapping-intervals](https://github.com/elios404/leetcode-practice/tree/main/0435-non-overlapping-intervals/) | Medium |
