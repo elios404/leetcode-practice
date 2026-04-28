@@ -6,7 +6,6 @@ class Solution:
 
         while left < right:
             mid = (left+right)//2
-            print(left, mid, right)
             cnt = 0 # time need to eat all bananas
             for pile in piles:
                 cnt += (pile//mid)
