@@ -19,7 +19,7 @@ class Solution:
                     solve(i+1, False),  # 존버
                 )
 
-        for i in reversed(range(len(prices))):
+        for i in reversed(range(0, len(prices), 100)):
             solve(i, False)
             solve(i, True)
 
