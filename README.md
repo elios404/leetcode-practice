@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/2300-successful-pairs-of-spells-and-potions/) | Medium |
+| [2462-total-cost-to-hire-k-workers](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/2462-total-cost-to-hire-k-workers/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -74,6 +75,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2215-find-the-difference-of-two-arrays](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/2215-find-the-difference-of-two-arrays/) | Easy |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/2300-successful-pairs-of-spells-and-potions/) | Medium |
 | [2352-equal-row-and-column-pairs](https://github.com/elios404/leetcode-practice/tree/main/2352-equal-row-and-column-pairs/) | Medium |
+| [2462-total-cost-to-hire-k-workers](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/2462-total-cost-to-hire-k-workers/) | Medium |
 | [2542-maximum-subsequence-score](https://github.com/elios404/leetcode-practice/tree/main/2542-maximum-subsequence-score/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
@@ -172,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0735-asteroid-collision](https://github.com/elios404/leetcode-practice/tree/main/0735-asteroid-collision/) | Medium |
 | [2352-equal-row-and-column-pairs](https://github.com/elios404/leetcode-practice/tree/main/2352-equal-row-and-column-pairs/) | Medium |
 | [2390-removing-stars-from-a-string](https://github.com/elios404/leetcode-practice/tree/main/2390-removing-stars-from-a-string/) | Medium |
+| [2462-total-cost-to-hire-k-workers](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/2462-total-cost-to-hire-k-workers/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -276,6 +279,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
 | [2336-smallest-number-in-infinite-set](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/2336-smallest-number-in-infinite-set/) | Medium |
+| [2462-total-cost-to-hire-k-workers](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/2462-total-cost-to-hire-k-workers/) | Medium |
 | [2542-maximum-subsequence-score](https://github.com/elios404/leetcode-practice/tree/main/2542-maximum-subsequence-score/) | Medium |
 ## Quickselect
 | Problem Name | Difficulty |
