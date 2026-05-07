@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/elios404/leetcode-practice/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
+| [0072-edit-distance](https://github.com/elios404/leetcode-practice/tree/main/0072-edit-distance/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0151-reverse-words-in-a-string/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
 | [0345-reverse-vowels-of-a-string](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0345-reverse-vowels-of-a-string/) | Easy |
@@ -102,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/elios404/leetcode-practice/tree/main/0062-unique-paths/) | Medium |
+| [0072-edit-distance](https://github.com/elios404/leetcode-practice/tree/main/0072-edit-distance/) | Medium |
 | [0198-house-robber](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
 | [0338-counting-bits](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
 | [0392-is-subsequence](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
