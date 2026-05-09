@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0215-kth-largest-element-in-an-array](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
 | [0216-combination-sum-iii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0216-combination-sum-iii/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
+| [0274-h-index](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0274-h-index/) | Medium |
 | [0283-move-zeroes](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0283-move-zeroes/) | Easy |
 | [0334-increasing-triplet-subsequence](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0334-increasing-triplet-subsequence/) | Medium |
 | [0399-evaluate-division](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
@@ -130,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
+| [0274-h-index](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0274-h-index/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/elios404/leetcode-practice/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 | [1268-search-suggestions-system](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1268-search-suggestions-system/) | Medium |
@@ -336,4 +338,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0739-daily-temperatures](https://github.com/elios404/leetcode-practice/tree/main/0739-daily-temperatures/) | Medium |
 | [0901-online-stock-span](https://github.com/elios404/leetcode-practice/tree/main/0901-online-stock-span/) | Medium |
+## Counting Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0274-h-index](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0274-h-index/) | Medium |
 <!---LeetCode Topics End-->
