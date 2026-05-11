@@ -8,21 +8,15 @@
 """
 class Solution:
     def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
-        n = len(gas)
-        idx = start = 0
-        gas_left = gas[0]
-        # maximun two times full scan
-        while start < n:
-            if idx - start == n: #if rotate once
-                return start
-
-            gas_left -= cost[idx%n] # move to next gas station
-            idx += 1# update idx into next station index
-
-            if gas_left < 0: #if run out of gas
-                start = idx
-                gas_left = 0
-
-            gas_left += gas[idx%n] # fill gas
+        if sum(gas) < sum(cost):
+            return -1
         
-        return -1
+        point = 0
+        tank = 0
+        for i, (g, c) in enumerate(zip(gas, cost)):
+            tank = tank + g - c
+            if tank < 0:
+                tank = 0
+                point = i+1
+        
+        return point
