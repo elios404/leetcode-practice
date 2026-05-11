@@ -50,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0011-container-with-most-water/) | Medium |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
+| [0134-gas-station](https://github.com/elios404/leetcode-practice/tree/main/0134-gas-station/) | Medium |
 | [0136-single-number](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0136-single-number/) | Easy |
 | [0162-find-peak-element](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0162-find-peak-element/) | Medium |
 | [0198-house-robber](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
@@ -88,6 +89,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0011-container-with-most-water/) | Medium |
+| [0134-gas-station](https://github.com/elios404/leetcode-practice/tree/main/0134-gas-station/) | Medium |
 | [0334-increasing-triplet-subsequence](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0334-increasing-triplet-subsequence/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/elios404/leetcode-practice/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
