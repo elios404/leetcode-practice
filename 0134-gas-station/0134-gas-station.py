@@ -19,8 +19,6 @@ class Solution:
             gas_left -= cost[idx%l] # move to next gas station
             idx += 1# update idx into next station index
 
-            print(start, idx, gas_left)
-
             if gas_left < 0: #if run out of gas
                 start = idx
                 gas_left = 0
