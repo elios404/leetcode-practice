@@ -49,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0011-container-with-most-water/) | Medium |
+| [0045-jump-game-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0045-jump-game-ii/) | Medium |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0134-gas-station](https://github.com/elios404/leetcode-practice/tree/main/0134-gas-station/) | Medium |
 | [0136-single-number](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0136-single-number/) | Easy |
@@ -89,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0011-container-with-most-water/) | Medium |
+| [0045-jump-game-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0045-jump-game-ii/) | Medium |
 | [0134-gas-station](https://github.com/elios404/leetcode-practice/tree/main/0134-gas-station/) | Medium |
 | [0334-increasing-triplet-subsequence](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0334-increasing-triplet-subsequence/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/elios404/leetcode-practice/tree/main/0435-non-overlapping-intervals/) | Medium |
@@ -107,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0045-jump-game-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0045-jump-game-ii/) | Medium |
 | [0062-unique-paths](https://github.com/elios404/leetcode-practice/tree/main/0062-unique-paths/) | Medium |
 | [0072-edit-distance](https://github.com/elios404/leetcode-practice/tree/main/0072-edit-distance/) | Medium |
 | [0198-house-robber](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
