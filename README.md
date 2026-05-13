@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0392-is-subsequence](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
 | [0443-string-compression](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0443-string-compression/) | Medium |
 | [1679-max-number-of-k-sum-pairs](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1679-max-number-of-k-sum-pairs/) | Medium |
+| [1764-form-array-by-concatenating-subarrays-of-another-array](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1764-form-array-by-concatenating-subarrays-of-another-array/) | Medium |
 | [1768-merge-strings-alternately](https://github.com/elios404/leetcode-practice/tree/main/1768-merge-strings-alternately/) | Easy |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
@@ -83,6 +84,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1493-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 | [1679-max-number-of-k-sum-pairs](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1679-max-number-of-k-sum-pairs/) | Medium |
 | [1732-find-the-highest-altitude](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/1732-find-the-highest-altitude/) | Easy |
+| [1764-form-array-by-concatenating-subarrays-of-another-array](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1764-form-array-by-concatenating-subarrays-of-another-array/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1926-nearest-exit-from-entrance-in-maze/) | Medium |
 | [2215-find-the-difference-of-two-arrays](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/2215-find-the-difference-of-two-arrays/) | Easy |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/2300-successful-pairs-of-spells-and-potions/) | Medium |
@@ -101,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0605-can-place-flowers](https://github.com/elios404/leetcode-practice/tree/main/0605-can-place-flowers/) | Easy |
 | [0649-dota2-senate](https://github.com/elios404/leetcode-practice/tree/main/0649-dota2-senate/) | Medium |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
+| [1764-form-array-by-concatenating-subarrays-of-another-array](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1764-form-array-by-concatenating-subarrays-of-another-array/) | Medium |
 | [2542-maximum-subsequence-score](https://github.com/elios404/leetcode-practice/tree/main/2542-maximum-subsequence-score/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
@@ -354,4 +357,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0274-h-index](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0274-h-index/) | Medium |
+## String Matching
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1764-form-array-by-concatenating-subarrays-of-another-array](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1764-form-array-by-concatenating-subarrays-of-another-array/) | Medium |
 <!---LeetCode Topics End-->
