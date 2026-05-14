@@ -30,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0072-edit-distance](https://github.com/elios404/leetcode-practice/tree/main/0072-edit-distance/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0151-reverse-words-in-a-string/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
+| [0214-shortest-palindrome](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Hard/0214-shortest-palindrome/) | Hard |
 | [0345-reverse-vowels-of-a-string](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0345-reverse-vowels-of-a-string/) | Easy |
 | [0383-ransom-note](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0383-ransom-note/) | Easy |
 | [0392-is-subsequence](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
@@ -366,5 +367,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
+| [0214-shortest-palindrome](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Hard/0214-shortest-palindrome/) | Hard |
 | [1764-form-array-by-concatenating-subarrays-of-another-array](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1764-form-array-by-concatenating-subarrays-of-another-array/) | Medium |
+## Rolling Hash
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0214-shortest-palindrome](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Hard/0214-shortest-palindrome/) | Hard |
+## Hash Function
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0214-shortest-palindrome](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Hard/0214-shortest-palindrome/) | Hard |
 <!---LeetCode Topics End-->
