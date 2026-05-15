@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/elios404/leetcode-practice/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
+| [0020-valid-parentheses](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0072-edit-distance](https://github.com/elios404/leetcode-practice/tree/main/0072-edit-distance/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0151-reverse-words-in-a-string/) | Medium |
@@ -214,6 +215,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0020-valid-parentheses](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
 | [0394-decode-string](https://github.com/elios404/leetcode-practice/tree/main/0394-decode-string/) | Medium |
 | [0735-asteroid-collision](https://github.com/elios404/leetcode-practice/tree/main/0735-asteroid-collision/) | Medium |
 | [0739-daily-temperatures](https://github.com/elios404/leetcode-practice/tree/main/0739-daily-temperatures/) | Medium |
