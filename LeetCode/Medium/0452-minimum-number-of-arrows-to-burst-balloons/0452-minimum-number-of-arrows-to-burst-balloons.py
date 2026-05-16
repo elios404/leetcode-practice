@@ -1,26 +1,12 @@
 class Solution:
     def findMinArrowShots(self, points: List[List[int]]) -> int:
-        overlapping_area = []
-        points.sort(reverse=True)
+        points.sort(key=lambda x : x[1])
 
-        added = False
-        for point in points:
-            
-            for area in overlapping_area:
-                if point[0] > area[1] or point[1] < area[0]: # not in area
-                    continue
-                #if in area
-                area[0] = max(area[0], point[0])
-                area[1] = min(area[1], point[1])
-                added = True
-                break
-            
-            # if not in overlapping area
-            if not added:
-                overlapping_area.append(point)
-            
-            added = False
-            
-            # print(overlapping_area)
-        
-        return len(overlapping_area)
+        right = float('-inf')
+        cnt = 0
+        for p_left, p_right in points:
+            if right < p_left: #if not in area
+                right = p_right
+                cnt += 1
+
+        return cnt
