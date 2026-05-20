@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0151-reverse-words-in-a-string](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0151-reverse-words-in-a-string/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
 | [0214-shortest-palindrome](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Hard/0214-shortest-palindrome/) | Hard |
+| [0290-word-pattern](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0290-word-pattern/) | Easy |
 | [0345-reverse-vowels-of-a-string](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0345-reverse-vowels-of-a-string/) | Easy |
 | [0383-ransom-note](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0383-ransom-note/) | Easy |
 | [0392-is-subsequence](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
@@ -143,6 +144,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0017-letter-combinations-of-a-phone-number](https://github.com/elios404/leetcode-practice/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0141-linked-list-cycle](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0141-linked-list-cycle/) | Easy |
 | [0208-implement-trie-prefix-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
+| [0290-word-pattern](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0290-word-pattern/) | Easy |
 | [0383-ransom-note](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0383-ransom-note/) | Easy |
 | [1207-unique-number-of-occurrences](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
 | [1657-determine-if-two-strings-are-close](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1657-determine-if-two-strings-are-close/) | Medium |
