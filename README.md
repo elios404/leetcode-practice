@@ -68,6 +68,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0198-house-robber](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
 | [0216-combination-sum-iii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0216-combination-sum-iii/) | Medium |
+| [0219-contains-duplicate-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0219-contains-duplicate-ii/) | Easy |
 | [0228-summary-ranges](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0228-summary-ranges/) | Easy |
 | [0238-product-of-array-except-self](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
 | [0274-h-index](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0274-h-index/) | Medium |
@@ -144,6 +145,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0017-letter-combinations-of-a-phone-number](https://github.com/elios404/leetcode-practice/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0141-linked-list-cycle](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0141-linked-list-cycle/) | Easy |
 | [0208-implement-trie-prefix-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
+| [0219-contains-duplicate-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0219-contains-duplicate-ii/) | Easy |
 | [0290-word-pattern](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0290-word-pattern/) | Easy |
 | [0383-ransom-note](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0383-ransom-note/) | Easy |
 | [1207-unique-number-of-occurrences](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
@@ -167,6 +169,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0219-contains-duplicate-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0219-contains-duplicate-ii/) | Easy |
 | [0643-maximum-average-subarray-i](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0643-maximum-average-subarray-i/) | Easy |
 | [1004-max-consecutive-ones-iii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1004-max-consecutive-ones-iii/) | Medium |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
