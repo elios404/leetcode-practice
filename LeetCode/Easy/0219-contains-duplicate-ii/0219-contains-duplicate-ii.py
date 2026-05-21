@@ -13,15 +13,12 @@ class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         if k == 0:
             return False # not distinct indices or can't find 
-        pos = {}
+        last_seen = {}
 
         # O(N)
         for i, num in enumerate(nums):
-            if num not in pos:
-                pos[num] = i
-                continue
-            if i - k <= pos[num]:
+            if num in last_seen and i - k <= last_seen[num]:
                 return True
-            pos[num] = i # replace into most closest.
+            last_seen[num] = i # replace into most closest.
          
         return False
