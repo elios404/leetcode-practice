@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0141-linked-list-cycle](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0141-linked-list-cycle/) | Easy |
 | [0151-reverse-words-in-a-string](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0151-reverse-words-in-a-string/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0167-two-sum-ii-input-array-is-sorted/) | Medium |
+| [0202-happy-number](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0202-happy-number/) | Easy |
 | [0283-move-zeroes](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0283-move-zeroes/) | Easy |
 | [0345-reverse-vowels-of-a-string](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0345-reverse-vowels-of-a-string/) | Easy |
 | [0392-is-subsequence](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
@@ -52,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/elios404/leetcode-practice/tree/main/0062-unique-paths/) | Medium |
+| [0202-happy-number](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0202-happy-number/) | Easy |
 | [1071-greatest-common-divisor-of-strings](https://github.com/elios404/leetcode-practice/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
 | [1137-n-th-tribonacci-number](https://github.com/elios404/leetcode-practice/tree/main/1137-n-th-tribonacci-number/) | Easy |
 ## Array
@@ -144,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0001-two-sum](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0001-two-sum/) | Easy |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/elios404/leetcode-practice/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0141-linked-list-cycle](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0141-linked-list-cycle/) | Easy |
+| [0202-happy-number](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0202-happy-number/) | Easy |
 | [0208-implement-trie-prefix-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0219-contains-duplicate-ii/) | Easy |
 | [0290-word-pattern](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0290-word-pattern/) | Easy |
