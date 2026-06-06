@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0072-edit-distance](https://github.com/elios404/leetcode-practice/tree/main/0072-edit-distance/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0151-reverse-words-in-a-string/) | Medium |
+| [0205-isomorphic-strings](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0205-isomorphic-strings/) | Easy |
 | [0208-implement-trie-prefix-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
 | [0214-shortest-palindrome](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Hard/0214-shortest-palindrome/) | Hard |
 | [0290-word-pattern](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0290-word-pattern/) | Easy |
@@ -151,6 +152,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | [0036-valid-sudoku](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
 | [0141-linked-list-cycle](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0141-linked-list-cycle/) | Easy |
 | [0202-happy-number](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0202-happy-number/) | Easy |
+| [0205-isomorphic-strings](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0205-isomorphic-strings/) | Easy |
 | [0208-implement-trie-prefix-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0219-contains-duplicate-ii/) | Easy |
 | [0290-word-pattern](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0290-word-pattern/) | Easy |
