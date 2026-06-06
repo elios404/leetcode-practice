@@ -1,3 +1,5 @@
+# Use DP pattern to solve this. If same number appears again, then it makes endless loop so, return False
+
 class Solution:
     def isHappy(self, n: int) -> bool:
         calced = set()
