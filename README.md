@@ -69,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | [0162-find-peak-element](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0162-find-peak-element/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0198-house-robber](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
+| [0209-minimum-size-subarray-sum](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0209-minimum-size-subarray-sum/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
 | [0216-combination-sum-iii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0216-combination-sum-iii/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0219-contains-duplicate-ii/) | Easy |
@@ -120,6 +121,7 @@ Collection of LeetCode questions to ace the coding interview!!
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0209-minimum-size-subarray-sum/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
 | [0724-find-pivot-index](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0724-find-pivot-index/) | Easy |
 | [1004-max-consecutive-ones-iii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1004-max-consecutive-ones-iii/) | Medium |
@@ -174,6 +176,7 @@ Collection of LeetCode questions to ace the coding interview!!
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0209-minimum-size-subarray-sum/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0219-contains-duplicate-ii/) | Easy |
 | [0643-maximum-average-subarray-i](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0643-maximum-average-subarray-i/) | Easy |
 | [1004-max-consecutive-ones-iii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1004-max-consecutive-ones-iii/) | Medium |
@@ -184,6 +187,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | ------- | ------- |
 | [0162-find-peak-element](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0162-find-peak-element/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0167-two-sum-ii-input-array-is-sorted/) | Medium |
+| [0209-minimum-size-subarray-sum](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0209-minimum-size-subarray-sum/) | Medium |
 | [0374-guess-number-higher-or-lower](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0374-guess-number-higher-or-lower/) | Easy |
 | [0875-koko-eating-bananas](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0875-koko-eating-bananas/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1004-max-consecutive-ones-iii/) | Medium |
