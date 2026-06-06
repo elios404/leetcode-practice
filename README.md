@@ -61,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | ------- | ------- |
 | [0001-two-sum](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0001-two-sum/) | Easy |
 | [0011-container-with-most-water](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0011-container-with-most-water/) | Medium |
+| [0036-valid-sudoku](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
 | [0045-jump-game-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0045-jump-game-ii/) | Medium |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0134-gas-station](https://github.com/elios404/leetcode-practice/tree/main/0134-gas-station/) | Medium |
@@ -145,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | ------- | ------- |
 | [0001-two-sum](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0001-two-sum/) | Easy |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/elios404/leetcode-practice/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
+| [0036-valid-sudoku](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
 | [0141-linked-list-cycle](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0141-linked-list-cycle/) | Easy |
 | [0202-happy-number](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0202-happy-number/) | Easy |
 | [0208-implement-trie-prefix-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
@@ -212,6 +214,7 @@ Collection of LeetCode questions to ace the coding interview!!
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0036-valid-sudoku](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
 | [0994-rotting-oranges](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0994-rotting-oranges/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1926-nearest-exit-from-entrance-in-maze/) | Medium |
 | [2352-equal-row-and-column-pairs](https://github.com/elios404/leetcode-practice/tree/main/2352-equal-row-and-column-pairs/) | Medium |
