@@ -11,54 +11,45 @@
 from collections import deque
 
 class Solution:
-    def snakesAndLadders(self, board: List[List[int]]) -> int:
+    def snakesAndLadders(self, board: list[list[int]]) -> int:
+        n = len(board)
 
-        # O(1)
-        def findIndexFromNumber(num: int, n: int, m: int)->tuple:
-            """
-            number starts from 0 to n*m-1
-            row and col start with 0
-            """
-            row = num // m
-            col = num % m
-            isRight = True if row % 2 == 0 else False
+        # Helper: Keep it 1-indexed to match the game exactly
+        def get_coordinates(square: int) -> tuple[int, int]:
+            # Subtract 1 just for the math, to get 0-based row/col offsets
+            r, c = divmod(square - 1, n)
+            # If it's an odd row from the bottom, the column goes right-to-left
+            if r % 2 == 1:
+                c = n - 1 - c
+            # Return actual matrix row (inverted from top) and col
+            return n - 1 - r, c
 
-            if isRight:
-                return (n - 1 - row, col)
-            else:
-                return (n - 1 - row, m - 1 - col)
+        # Queue stores: (current_square, moves_taken)
+        q = deque([(1, 0)])
+        visited = set([1])
 
-
-        n = len(board) # row
-        m = len(board[0]) # col
-        visited = [False] * (n * m)
-
-        q = deque()
-        q.append((0, 0)) #number, count to reach there
-        visited[0] = True
-
-        # O(N)
         while q:
-            curr = q.popleft()
+            curr_square, moves = q.popleft()
             
-            for move in range(1,7):
-                next_num = curr[0] + move
-
-                if next_num >= n*m: #out of range
-                    continue
-
-                index = findIndexFromNumber(next_num, n, m)
-                short_track = board[index[0]][index[1]] - 1
-                if short_track != -2:
-                    next_num = short_track
-
-                if visited[next_num]:
-                    continue
+            for dice_roll in range(1, 7):
+                next_square = curr_square + dice_roll
                 
-                if next_num == n * m - 1:
-                    return curr[1] + 1
-
-                visited[next_num] = True #check visited into new position                
-                q.append((next_num, curr[1] + 1))
-            
+                # Optimization: if we exceed the board, stop checking larger dice rolls
+                if next_square > n * n:
+                    break
+                
+                # Check for snakes/ladders
+                r, c = get_coordinates(next_square)
+                if board[r][c] != -1:
+                    next_square = board[r][c]
+                
+                # Check winning condition immediately
+                if next_square == n * n:
+                    return moves + 1
+                
+                # Only add to queue if this final destination hasn't been visited
+                if next_square not in visited:
+                    visited.add(next_square)
+                    q.append((next_square, moves + 1))
+                    
         return -1
