@@ -91,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | [0739-daily-temperatures](https://github.com/elios404/leetcode-practice/tree/main/0739-daily-temperatures/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0746-min-cost-climbing-stairs/) | Easy |
 | [0875-koko-eating-bananas](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0875-koko-eating-bananas/) | Medium |
+| [0909-snakes-and-ladders](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0909-snakes-and-ladders/) | Medium |
 | [0994-rotting-oranges](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0994-rotting-oranges/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1004-max-consecutive-ones-iii/) | Medium |
 | [1207-unique-number-of-occurrences](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
@@ -223,6 +224,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | ------- | ------- |
 | [0036-valid-sudoku](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
 | [0200-number-of-islands](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
+| [0909-snakes-and-ladders](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0909-snakes-and-ladders/) | Medium |
 | [0994-rotting-oranges](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0994-rotting-oranges/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1926-nearest-exit-from-entrance-in-maze/) | Medium |
 | [2352-equal-row-and-column-pairs](https://github.com/elios404/leetcode-practice/tree/main/2352-equal-row-and-column-pairs/) | Medium |
@@ -300,6 +302,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | [0547-number-of-provinces](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0637-average-of-levels-in-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0637-average-of-levels-in-binary-tree/) | Easy |
 | [0841-keys-and-rooms](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
+| [0909-snakes-and-ladders](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0909-snakes-and-ladders/) | Medium |
 | [0994-rotting-oranges](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0994-rotting-oranges/) | Medium |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/1448-count-good-nodes-in-binary-tree/) | Medium |
