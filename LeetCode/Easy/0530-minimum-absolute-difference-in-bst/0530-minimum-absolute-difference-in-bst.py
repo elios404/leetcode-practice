@@ -8,8 +8,8 @@
 """
 1. Approach : 
     - Do easy and time spending way fisrt.
-2. Time Complexity : O(N) - Visit all the nodes in Tree and linear iteration of the list of values.
-3. Space Complexity : O(N) - Auxiliary space to save the values of tree are needed
+2. Time Complexity: $O(N)$. We visit every node in the binary search tree exactly once. Removing the second loop means we strictly do $O(N)$ operations instead of $O(2N)$, though both simplify mathematically to $O(N)$.
+3. Space Complexity (Optimized): $O(H)$, where $H$ is the height of the tree. By removing the values array, we eliminated the explicit $O(N)$ auxiliary space. Now, the only extra memory we use is the implicit recursive call stack, which takes $O(H)$ space. In a perfectly balanced tree, this is highly efficient at $O(\log N)$.
 """
 
 class Solution:
