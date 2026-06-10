@@ -14,21 +14,25 @@
 
 class Solution:
     def getMinimumDifference(self, root: Optional[TreeNode]) -> int:
-        values = []
-
-        def search_nodes(node: TreeNode, values: List):
-            if node:
-                # in this sequence, values are sorted automatically
-                search_nodes(node.left, values)
-                values.append(node.val)
-                search_nodes(node.right, values)
-        
-        search_nodes(root, values)
-
+        min_diff = float('inf')
         last_val = float('-inf')
-        minimum_absolute_difference = float('inf')
-        for val in values:
-            minimum_absolute_difference = min(minimum_absolute_difference, val - last_val)
-            last_val = val
+
+        def in_order(node: TreeNode):
+            # Declare these as nonlocal to modify the outer scope variables
+            nonlocal min_diff, last_val
+            
+            if not node:
+                return
+            
+            in_order(node.left)
+            
+            # Process the node dynamically instead of saving to a list
+            min_diff = min(min_diff, node.val - last_val)
+            last_val = node.val
+            
+            in_order(node.right)
+            
+        in_order(root)
         
-        return minimum_absolute_difference
+        # Cast to int to strictly match the return type hint (optional but clean)
+        return int(min_diff)
