@@ -6,22 +6,26 @@
 """
 
 class Solution:
-    def combine(self, n: int, k: int) -> List[List[int]]:
+    def combine(self, n: int, k: int) -> list[list[int]]:
         ret = []
 
-        def comb(curr: int, cnt: int, choose: list):
-            nonlocal ret, n, k
-
-            if cnt == 0:
-                ret.append(choose)
+        def backtrack(start: int, path: list[int]):
+            # Base Case
+            if len(path) == k:
+                ret.append(path[:]) # Append a snapshot (copy) of the current path
                 return 
 
-            if curr > n or n - curr + 1 < cnt: # For Early Stopping
+            # Pruning (Early Stopping)
+            need = k - len(path)
+            remain = n - start + 1
+            if remain < need:
                 return
 
-            for num in range(curr, n+1):
-                comb(num+1, cnt-1, choose + [num])
+            # Explore choices
+            for i in range(start, n + 1):
+                path.append(i)       # 1. Choose
+                backtrack(i + 1, path) # 2. Explore
+                path.pop()           # 3. Un-choose (Backtrack)
         
-        comb(1, k, [])
-
-        return  ret
+        backtrack(1, [])
+        return ret
