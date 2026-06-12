@@ -65,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | [0036-valid-sudoku](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
 | [0045-jump-game-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0045-jump-game-ii/) | Medium |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0134-gas-station](https://github.com/elios404/leetcode-practice/tree/main/0134-gas-station/) | Medium |
 | [0136-single-number](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0136-single-number/) | Easy |
 | [0162-find-peak-element](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0162-find-peak-element/) | Medium |
@@ -263,6 +264,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | ------- | ------- |
 | [0100-same-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0100-same-tree/) | Easy |
 | [0104-maximum-depth-of-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0437-path-sum-iii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0437-path-sum-iii/) | Medium |
@@ -316,6 +318,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | ------- | ------- |
 | [0100-same-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0100-same-tree/) | Easy |
 | [0104-maximum-depth-of-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0437-path-sum-iii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0437-path-sum-iii/) | Medium |
@@ -330,6 +333,7 @@ Collection of LeetCode questions to ace the coding interview!!
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0450-delete-node-in-a-bst](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0450-delete-node-in-a-bst/) | Medium |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0530-minimum-absolute-difference-in-bst/) | Easy |
 | [0700-search-in-a-binary-search-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0700-search-in-a-binary-search-tree/) | Easy |
@@ -353,6 +357,7 @@ Collection of LeetCode questions to ace the coding interview!!
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0215-kth-largest-element-in-an-array](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
