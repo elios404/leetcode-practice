@@ -5,22 +5,24 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def sortedArrayToBST(self, nums: List[int]) -> Optional[TreeNode]:
+    def sortedArrayToBST(self, nums: list[int]) -> Optional[TreeNode]:
         
-        def makeBinarySearchTree(left: int, right: int, node: TreeNode, visited: set) -> TreeNode:
-            """
-            left is included and right is not included
-            """
-            idx = (left+right) // 2
-            if idx in visited or left >= len(nums) or right < 0:
+        # Helper uses inclusive bounds: [left, right]
+        def build_bst(left: int, right: int) -> Optional[TreeNode]:
+            # Base case: mathematically guarantees we stop
+            if left > right:
                 return None
-
-            visited.add(idx)
-            node.val = nums[idx]
-            node.left = makeBinarySearchTree(left, idx, TreeNode(), visited)
-            node.right = makeBinarySearchTree(idx + 1, right, TreeNode(), visited)
-
-            return node
+            
+            mid = (left + right) // 2
+            
+            # Instantiate the node with the value immediately
+            root = TreeNode(nums[mid])
+            
+            # Recursively build left and right
+            root.left = build_bst(left, mid - 1)
+            root.right = build_bst(mid + 1, right)
+            
+            return root
         
-        return makeBinarySearchTree(0, len(nums), TreeNode(), set())
+        return build_bst(0, len(nums) - 1)
             
