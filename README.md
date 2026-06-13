@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | [0205-isomorphic-strings](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0205-isomorphic-strings/) | Easy |
 | [0208-implement-trie-prefix-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
 | [0214-shortest-palindrome](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Hard/0214-shortest-palindrome/) | Hard |
+| [0242-valid-anagram](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0242-valid-anagram/) | Easy |
 | [0290-word-pattern](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0290-word-pattern/) | Easy |
 | [0345-reverse-vowels-of-a-string](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0345-reverse-vowels-of-a-string/) | Easy |
 | [0383-ransom-note](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0383-ransom-note/) | Easy |
@@ -158,6 +159,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | [0205-isomorphic-strings](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0205-isomorphic-strings/) | Easy |
 | [0208-implement-trie-prefix-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0219-contains-duplicate-ii/) | Easy |
+| [0242-valid-anagram](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0242-valid-anagram/) | Easy |
 | [0290-word-pattern](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0290-word-pattern/) | Easy |
 | [0383-ransom-note](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0383-ransom-note/) | Easy |
 | [1207-unique-number-of-occurrences](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/1207-unique-number-of-occurrences/) | Easy |
@@ -170,6 +172,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
+| [0242-valid-anagram](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0242-valid-anagram/) | Easy |
 | [0274-h-index](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0274-h-index/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/elios404/leetcode-practice/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
