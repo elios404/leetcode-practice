@@ -1,18 +1,17 @@
+# What a clean and beautiful code..
+
 class Solution:
-    def longestCommonPrefix(self, strs: List[str]) -> str:
-        ret = ""
-        min_length = float('inf')
-        for word in strs:
-            min_length = min(min_length, len(word))
-
-        if min_length == 0:
-            return ret
-
-        for i in range(min_length):
-            c = strs[0][i]
-            for word in strs:
-                if word[i] != c:
-                    return ret
-            ret = ret + c
-        
-        return ret
+    def longestCommonPrefix(self, strs: list[str]) -> str:
+        if not strs:
+            return ""
+            
+        ret = []
+        # zip(*strs) groups characters vertically. It auto-stops at the shortest string!
+        for chars in zip(*strs):
+            # A set removes duplicates. If the length is 1, all characters matched.
+            if len(set(chars)) == 1:
+                ret.append(chars[0])
+            else:
+                break
+                
+        return "".join(ret)
