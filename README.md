@@ -254,11 +254,13 @@ Collection of LeetCode questions to ace the coding interview!!
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0021-merge-two-sorted-lists/) | Easy |
 | [0206-reverse-linked-list](https://github.com/elios404/leetcode-practice/tree/main/0206-reverse-linked-list/) | Easy |
 | [0394-decode-string](https://github.com/elios404/leetcode-practice/tree/main/0394-decode-string/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0021-merge-two-sorted-lists/) | Easy |
 | [0141-linked-list-cycle](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0141-linked-list-cycle/) | Easy |
 | [0206-reverse-linked-list](https://github.com/elios404/leetcode-practice/tree/main/0206-reverse-linked-list/) | Easy |
 | [0328-odd-even-linked-list](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0328-odd-even-linked-list/) | Medium |
