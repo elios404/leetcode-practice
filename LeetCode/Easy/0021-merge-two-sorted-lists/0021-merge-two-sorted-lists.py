@@ -12,29 +12,23 @@ class Solution:
         elif not list2:
             return list1
 
+        start = ListNode()
+        curr = start
         curr1 = list1
         curr2 = list2
-        if curr1.val <= curr2.val:
-            start = curr1
-            curr1 = curr1.next
-        else:
-            start = curr2
-            curr2 = curr2.next
 
-        ret = start
         while curr1 and curr2:
             if curr1.val <= curr2.val:
-                ret.next = curr1
-                ret = ret.next
+                curr.next = curr1
                 curr1 = curr1.next
             else:
-                ret.next = curr2
-                ret = ret.next
+                curr.next = curr2
                 curr2 = curr2.next
+            curr = curr.next
         
         if not curr1: #finished list1
-            ret.next = curr2
+            curr.next = curr2
         else:
-            ret.next = curr1
+            curr.next = curr1
         
-        return start
+        return start.next
