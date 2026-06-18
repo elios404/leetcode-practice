@@ -56,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview!!
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0009-palindrome-number](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0009-palindrome-number/) | Easy |
 | [0062-unique-paths](https://github.com/elios404/leetcode-practice/tree/main/0062-unique-paths/) | Medium |
 | [0067-add-binary](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0067-add-binary/) | Easy |
 | [0202-happy-number](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0202-happy-number/) | Easy |
