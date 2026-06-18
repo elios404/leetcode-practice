@@ -1,6 +1,13 @@
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         str_x = str(x)
-        reverse_str_x = str_x[::-1]
+        left, right = 0, len(str_x) - 1
 
-        return str_x == reverse_str_x
+        while left <= right:
+            if str_x[left] != str_x[right]:
+                return False
+            
+            left += 1
+            right -= 1
+        
+        return True
