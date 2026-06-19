@@ -1,11 +1,10 @@
 class Solution:
     def largestAltitude(self, gain: List[int]) -> int:
-        last = 0
-        max_height = 0
-        for g in gain:
-            height = last + g
-            if height > max_height:
-                max_height = height
-            last = height
+        highest = 0  # 가장 높은 고도 (시작 고도가 0이므로 최소 0에서 시작)
+        current = 0  # 현재 고도
         
-        return max_height
+        for g in gain:
+            current += g                   # 다음 지점의 고도 계산
+            highest = max(highest, current) # 최댓값 갱신
+            
+        return highest
