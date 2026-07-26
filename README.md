@@ -71,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | [0035-search-insert-position](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0035-search-insert-position/) | Easy |
 | [0036-valid-sudoku](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
 | [0045-jump-game-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0045-jump-game-ii/) | Medium |
+| [0054-spiral-matrix](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0134-gas-station](https://github.com/elios404/leetcode-practice/tree/main/0134-gas-station/) | Medium |
@@ -234,6 +235,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0036-valid-sudoku](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
+| [0054-spiral-matrix](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
 | [0200-number-of-islands](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
 | [0909-snakes-and-ladders](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0909-snakes-and-ladders/) | Medium |
 | [0994-rotting-oranges](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0994-rotting-oranges/) | Medium |
@@ -242,6 +244,7 @@ Collection of LeetCode questions to ace the coding interview!!
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0054-spiral-matrix](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
 | [0067-add-binary](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0067-add-binary/) | Easy |
 | [0735-asteroid-collision](https://github.com/elios404/leetcode-practice/tree/main/0735-asteroid-collision/) | Medium |
 | [2352-equal-row-and-column-pairs](https://github.com/elios404/leetcode-practice/tree/main/2352-equal-row-and-column-pairs/) | Medium |
