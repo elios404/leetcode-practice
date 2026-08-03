@@ -5,41 +5,30 @@
 #         self.next = next
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
-        result = ListNode()
-
-        curr_l1 = l1
-        curr_l2 = l2
-        curr = result
+        # 가짜 시작 노드(Dummy Node) 생성
+        dummy = ListNode(0)
+        curr = dummy
         carry = 0
 
-        while curr_l1 and curr_l2: #when both has value
-            sum_val = curr_l1.val + curr_l2.val + carry
-            curr.val = sum_val % 10
-            carry = sum_val // 10
+        # l1, l2, carry 중 하나라도 남아있으면 계속 실행!
+        while l1 or l2 or carry:
+            # 1. 노드가 없으면 0으로 처리
+            val1 = l1.val if l1 else 0
+            val2 = l2.val if l2 else 0
 
-            curr_l1 = curr_l1.next
-            curr_l2 = curr_l2.next
-            if curr_l1 or curr_l2:
-                curr.next = ListNode()
-                curr = curr.next
+            # 2. 합계 계산
+            total = val1 + val2 + carry
+            carry = total // 10
 
-        if curr_l1:
-            node = curr_l1
-        else:
-            node = curr_l2
-        
-        while node:
-            curr.val = (node.val + carry) % 10
-            carry = (node.val + carry) // 10
+            # 3. 계산된 결과로 즉흥적으로 next 노드를 만들어서 연결!
+            curr.next = ListNode(total % 10)
+            curr = curr.next  # 포인터 이동
 
-            node = node.next
-            if not node:
-                break
-            curr.next = ListNode()
-            curr = curr.next
-        
-        if carry != 0:
-            curr.next = ListNode()
-            curr.next.val = carry
+            # 4. 다음 노드가 있는 경우에만 이동
+            if l1:
+                l1 = l1.next
+            if l2:
+                l2 = l2.next
 
-        return result
+        # dummy 다음 노드부터가 진짜 정답 리스트
+        return dummy.next
