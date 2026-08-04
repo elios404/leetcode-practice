@@ -39,7 +39,7 @@ class Solution:
                 if board[i][j] == 'O':
                     board[i][j] = 'X'
 
-        # 2. replace "V" to "O"
+        # 3. replace "V" to "O"
         for i in range(m):
             for j in range(n):
                 if board[i][j] == 'V':
