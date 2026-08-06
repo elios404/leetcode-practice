@@ -61,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | [0002-add-two-numbers](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0002-add-two-numbers/) | Medium |
 | [0009-palindrome-number](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0009-palindrome-number/) | Easy |
 | [0062-unique-paths](https://github.com/elios404/leetcode-practice/tree/main/0062-unique-paths/) | Medium |
+| [0066-plus-one](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0066-plus-one/) | Easy |
 | [0067-add-binary](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0067-add-binary/) | Easy |
 | [0202-happy-number](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0202-happy-number/) | Easy |
 | [1071-greatest-common-divisor-of-strings](https://github.com/elios404/leetcode-practice/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
@@ -75,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | [0036-valid-sudoku](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
 | [0045-jump-game-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0045-jump-game-ii/) | Medium |
 | [0054-spiral-matrix](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
+| [0066-plus-one](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0066-plus-one/) | Easy |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0130-surrounded-regions](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0130-surrounded-regions/) | Medium |
