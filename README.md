@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | [0020-valid-parentheses](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0067-add-binary](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0067-add-binary/) | Easy |
+| [0071-simplify-path](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0071-simplify-path/) | Medium |
 | [0072-edit-distance](https://github.com/elios404/leetcode-practice/tree/main/0072-edit-distance/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0151-reverse-words-in-a-string/) | Medium |
 | [0205-isomorphic-strings](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0205-isomorphic-strings/) | Easy |
@@ -264,6 +265,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
+| [0071-simplify-path](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0071-simplify-path/) | Medium |
 | [0394-decode-string](https://github.com/elios404/leetcode-practice/tree/main/0394-decode-string/) | Medium |
 | [0735-asteroid-collision](https://github.com/elios404/leetcode-practice/tree/main/0735-asteroid-collision/) | Medium |
 | [0739-daily-temperatures](https://github.com/elios404/leetcode-practice/tree/main/0739-daily-temperatures/) | Medium |
