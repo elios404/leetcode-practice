@@ -296,6 +296,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | [0104-maximum-depth-of-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
+| [0226-invert-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0226-invert-binary-tree/) | Easy |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0437-path-sum-iii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0437-path-sum-iii/) | Medium |
 | [0450-delete-node-in-a-bst](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0450-delete-node-in-a-bst/) | Medium |
@@ -314,6 +315,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | [0130-surrounded-regions](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0130-surrounded-regions/) | Medium |
 | [0199-binary-tree-right-side-view](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0200-number-of-islands](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
+| [0226-invert-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0226-invert-binary-tree/) | Easy |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0399-evaluate-division](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
 | [0437-path-sum-iii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0437-path-sum-iii/) | Medium |
@@ -334,6 +336,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | [0130-surrounded-regions](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0130-surrounded-regions/) | Medium |
 | [0199-binary-tree-right-side-view](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0200-number-of-islands](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
+| [0226-invert-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0226-invert-binary-tree/) | Easy |
 | [0399-evaluate-division](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
 | [0433-minimum-genetic-mutation](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0433-minimum-genetic-mutation/) | Medium |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0530-minimum-absolute-difference-in-bst/) | Easy |
@@ -353,6 +356,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | [0104-maximum-depth-of-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
+| [0226-invert-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0226-invert-binary-tree/) | Easy |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0437-path-sum-iii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0437-path-sum-iii/) | Medium |
 | [0450-delete-node-in-a-bst](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0450-delete-node-in-a-bst/) | Medium |
