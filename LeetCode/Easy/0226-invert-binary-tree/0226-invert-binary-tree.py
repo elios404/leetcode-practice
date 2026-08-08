@@ -8,7 +8,7 @@ from collections import deque
 
 class Solution:
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
-        if not root or (not root.left and not root.right):
+        if not root:
             return root
 
         queue = deque([root])
@@ -16,12 +16,9 @@ class Solution:
             curr = queue.popleft()
 
             curr.left, curr.right = curr.right, curr.left
-            if curr.left and curr.right:
+            if curr.left:
                 queue.append(curr.left)
-                queue.append(curr.right)
-            elif curr.left:
-                queue.append(curr.left)
-            elif curr.right:
+            if curr.right:
                 queue.append(curr.right)
         
         return root
