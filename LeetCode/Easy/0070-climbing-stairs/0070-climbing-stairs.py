@@ -3,10 +3,9 @@ class Solution:
         if n == 1:
             return 1
 
-        steps = [0 for i in range(n+1)]
-        steps[0], steps[1] = 1, 1
-
+        two_step, one_step = 1, 1
         for i in range(2, n+1):
-            steps[i] = steps[i-2] + steps[i-1]
+            step = two_step + one_step
+            two_step, one_step = one_step, step
 
-        return steps[n]
+        return step
