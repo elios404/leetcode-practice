@@ -297,6 +297,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | [0100-same-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0100-same-tree/) | Easy |
 | [0104-maximum-depth-of-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+| [0112-path-sum](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0226-invert-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0226-invert-binary-tree/) | Easy |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
@@ -314,6 +315,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | ------- | ------- |
 | [0100-same-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0100-same-tree/) | Easy |
 | [0104-maximum-depth-of-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
+| [0112-path-sum](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
 | [0130-surrounded-regions](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0130-surrounded-regions/) | Medium |
 | [0199-binary-tree-right-side-view](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0200-number-of-islands](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
@@ -335,6 +337,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | ------- | ------- |
 | [0100-same-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0100-same-tree/) | Easy |
 | [0104-maximum-depth-of-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
+| [0112-path-sum](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
 | [0130-surrounded-regions](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0130-surrounded-regions/) | Medium |
 | [0199-binary-tree-right-side-view](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0200-number-of-islands](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
@@ -357,6 +360,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | [0100-same-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0100-same-tree/) | Easy |
 | [0104-maximum-depth-of-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+| [0112-path-sum](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0226-invert-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0226-invert-binary-tree/) | Easy |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
