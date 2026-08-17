@@ -77,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | [0035-search-insert-position](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0035-search-insert-position/) | Easy |
 | [0036-valid-sudoku](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
 | [0045-jump-game-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0045-jump-game-ii/) | Medium |
+| [0046-permutations](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
 | [0054-spiral-matrix](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
 | [0066-plus-one](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0066-plus-one/) | Easy |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
@@ -427,6 +428,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/elios404/leetcode-practice/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
+| [0046-permutations](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
 | [0077-combinations](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0077-combinations/) | Medium |
 | [0216-combination-sum-iii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0216-combination-sum-iii/) | Medium |
 ## Memoization
