@@ -1,19 +1,18 @@
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
-        visited = []
         ret = []
-        
-        def permutation():
-            if len(visited) == len(nums):
-                ret.append([nums[i] for i in visited])
-                return
-            
-            for idx in range(len(nums)):
-                if idx not in visited:
-                    visited.append(idx)
-                    permutation()
-                    visited.pop()
-        
-        permutation()
+        visited = set()
 
+        def backtrack(path: List[int]):
+            if len(path) == len(nums):
+                ret.append(path[:])  # path.copy()
+                return
+
+            for num in nums:
+                if num not in visited:
+                    visited.add(num)
+                    backtrack(path + [num])  # 또는 append/pop 사용
+                    visited.remove(num)
+
+        backtrack([])
         return ret
