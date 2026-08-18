@@ -61,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0002-add-two-numbers/) | Medium |
 | [0009-palindrome-number](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0009-palindrome-number/) | Easy |
+| [0048-rotate-image](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
 | [0062-unique-paths](https://github.com/elios404/leetcode-practice/tree/main/0062-unique-paths/) | Medium |
 | [0066-plus-one](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0066-plus-one/) | Easy |
 | [0067-add-binary](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0067-add-binary/) | Easy |
@@ -78,6 +79,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | [0036-valid-sudoku](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
 | [0045-jump-game-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0045-jump-game-ii/) | Medium |
 | [0046-permutations](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
+| [0048-rotate-image](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
 | [0066-plus-one](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0066-plus-one/) | Easy |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
@@ -248,6 +250,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0036-valid-sudoku](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
+| [0048-rotate-image](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
 | [0130-surrounded-regions](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
