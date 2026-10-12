@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | [0017-letter-combinations-of-a-phone-number](https://github.com/elios404/leetcode-practice/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0020-valid-parentheses](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
+| [0049-group-anagrams](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0067-add-binary](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0067-add-binary/) | Easy |
 | [0071-simplify-path](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0071-simplify-path/) | Medium |
 | [0072-edit-distance](https://github.com/elios404/leetcode-practice/tree/main/0072-edit-distance/) | Medium |
@@ -80,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | [0045-jump-game-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0045-jump-game-ii/) | Medium |
 | [0046-permutations](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
 | [0048-rotate-image](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
+| [0049-group-anagrams](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0054-spiral-matrix](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
 | [0066-plus-one](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0066-plus-one/) | Easy |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
@@ -174,6 +176,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | [0003-longest-substring-without-repeating-characters](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/elios404/leetcode-practice/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0036-valid-sudoku](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
+| [0049-group-anagrams](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0141-linked-list-cycle](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0141-linked-list-cycle/) | Easy |
 | [0202-happy-number](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0202-happy-number/) | Easy |
 | [0205-isomorphic-strings](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0205-isomorphic-strings/) | Easy |
@@ -192,6 +195,7 @@ Collection of LeetCode questions to ace the coding interview!!
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0049-group-anagrams](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
 | [0242-valid-anagram](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0242-valid-anagram/) | Easy |
 | [0274-h-index](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0274-h-index/) | Medium |
