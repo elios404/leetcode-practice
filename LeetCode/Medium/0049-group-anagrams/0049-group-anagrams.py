@@ -8,8 +8,4 @@ class Solution:
             sorted_s = "".join(sorted(s))
             words[sorted_s].append(s)
         
-        ret = []
-        for v in words.values():
-            ret.append(v)
-        
-        return ret
+        return list(words.values())
