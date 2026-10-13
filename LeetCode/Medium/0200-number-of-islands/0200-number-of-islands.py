@@ -2,36 +2,33 @@ from collections import deque
 
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
-        n = len(grid) # row
-        m = len(grid[0]) # col
-        island_count = 0
+        
+        def bfs(i, j, grid):
+            queue = deque([(i, j)])
+            grid[i][j] = "0" # visited
 
-        visited = [[False] * m for _ in range(n)]
-        def bfs(grid, visited, i, j, n, m):
-            di = [-1,0,1,0]
-            dj = [0,1,0,-1]
+            di = [-1, 0, 1, 0]
+            dj = [0, 1, 0, -1]
 
-            q = deque()
-            q.append((i, j))
+            while queue:
+                ci, cj = queue.popleft()
 
-            while q:
-                curr = q.popleft() # tuple (i, j)
                 for d in range(4):
-                    ni = curr[0] + di[d]
-                    nj = curr[1] + dj[d]
+                    ni, nj = ci + di[d], cj + dj[d]
 
-                    if ni < 0 or n <= ni or nj < 0 or m <= nj: # out of range
+                    if ni < 0 or len(grid) <= ni or nj < 0 or len(grid[0]) <= nj:
                         continue
-                    if visited[ni][nj] or grid[ni][nj] == "0": # already visited or if it's water
+                    if grid[ni][nj] == "0": # water or visited
                         continue
                     
-                    visited[ni][nj] = True # check visited
-                    q.append((ni,nj))
-
-        for i in range(n):
-            for j in range(m):
-                if not visited[i][j] and grid[i][j] == "1":
-                    bfs(grid, visited, i, j, n, m)
-                    island_count += 1
+                    queue.append((ni, nj))
+                    grid[ni][nj] = "0"
         
-        return island_count
+        number_of_islands = 0
+        for i in range(len(grid)):
+            for j in range(len(grid[0])):
+                if grid[i][j] == "1":
+                    number_of_islands += 1
+                    bfs(i, j, grid)
+        
+        return number_of_islands
