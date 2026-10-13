@@ -83,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | [0048-rotate-image](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
 | [0049-group-anagrams](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0054-spiral-matrix](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
+| [0056-merge-intervals](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0056-merge-intervals/) | Medium |
 | [0066-plus-one](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0066-plus-one/) | Easy |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
@@ -196,6 +197,7 @@ Collection of LeetCode questions to ace the coding interview!!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
+| [0056-merge-intervals](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0056-merge-intervals/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
 | [0242-valid-anagram](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0242-valid-anagram/) | Easy |
 | [0274-h-index](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0274-h-index/) | Medium |
@@ -491,4 +493,8 @@ Collection of LeetCode questions to ace the coding interview!!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
+## Quicksort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0056-merge-intervals](https://github.com/elios404/leetcode-practice/tree/main/LeetCode/Medium/0056-merge-intervals/) | Medium |
 <!---LeetCode Topics End-->
