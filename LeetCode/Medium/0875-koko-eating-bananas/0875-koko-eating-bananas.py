@@ -1,17 +1,18 @@
 class Solution:
-    def minEatingSpeed(self, piles: List[int], h: int) -> int:
-        #O(n)
+    def minEatingSpeed(self, piles: list[int], h: int) -> int:
         left, right = 1, max(piles)
-
-        while left < right:
-            mid = (left+right)//2
-            cnt = 0 # time need to eat all bananas
-            for pile in piles:
-                cnt += math.ceil(pile / mid)
-            
-            if cnt <= h: #if k can be smaller
-                right = mid
-            else: # if k can be bigger
-                left = mid+1
         
+        while left < right:
+            mid = (left + right) // 2
+            t = 0
+            for pile in piles:
+                t += (pile // mid)
+                if pile % mid != 0:
+                    t += 1
+            
+            if t > h:
+                left = mid + 1
+            else:
+                right = mid
+
         return left
